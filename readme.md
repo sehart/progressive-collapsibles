@@ -55,3 +55,14 @@ Defaults shown:
 	    afterToggle: function() {}, // Callback after our hide/show toggle
 	    preventDefault: true // Set to false if you need default behavior
     }
+
+## Public Methods
+
+### destroy()
+Gracefully disable an existing collapsible.
+
+### getState()
+Returns true if collapsible is active and functioning, false if it's been disabled using destroy().
+
+### setup()
+Used to reinitialize the collapsible after destroy().

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "browserify index.js -s collapsible | uglifyjs -mc > dist/collapsible.min.js"
   },
-  "author": "",
+  "author": "Stephen Hart",
   "license": "ISC",
   "dependencies": {
     "xtend": "^4.0.1"
